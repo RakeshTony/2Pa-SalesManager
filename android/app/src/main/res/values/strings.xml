@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">2Pa</string>
+    <string name="facebook_app_id">669764511566198</string>
+    <string name="fb_login_protocol_scheme">fb669764511566198</string>
+    <string name="facebook_client_token">66a3c1082f5bb50e025e09714bf81eac</string>
+</resources>

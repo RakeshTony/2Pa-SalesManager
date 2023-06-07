@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "47833918481",
+    "firebase_url": "https://paevd-9f86b-default-rtdb.firebaseio.com",
+    "project_id": "paevd-9f86b",
+    "storage_bucket": "paevd-9f86b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47833918481:android:aa1b058e6b34e0025595b0",
+        "android_client_info": {
+          "package_name": "com.twopa.evd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47833918481-10d7inksjuk2ht5pm10shvqtaurm7tgh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5SJCOuQuJQiiE9ylyHL2_yFrFe6Iyqhc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47833918481-10d7inksjuk2ht5pm10shvqtaurm7tgh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "47833918481-069q75nlgl80gg1d477depo7s8j8j0vq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.twopa.evd"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47833918481:android:65f3e05152fadfe85595b0",
+        "android_client_info": {
+          "package_name": "com.twopa.sales.manager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47833918481-10d7inksjuk2ht5pm10shvqtaurm7tgh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5SJCOuQuJQiiE9ylyHL2_yFrFe6Iyqhc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47833918481-10d7inksjuk2ht5pm10shvqtaurm7tgh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "47833918481-069q75nlgl80gg1d477depo7s8j8j0vq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.twopa.evd"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>968307106231-nrda9qp383haffghujaaqgj8l0ea37ob.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.968307106231-nrda9qp383haffghujaaqgj8l0ea37ob</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAwG_aJiBS9_XRhNGj-k87HuBBqWlyzLjU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>968307106231</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.damanly.sales.manager</string>
+	<key>PROJECT_ID</key>
+	<string>mizaly-c516b</string>
+	<key>STORAGE_BUCKET</key>
+	<string>mizaly-c516b.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:968307106231:ios:cda58253a1251e8a608832</string>
+	<key>DATABASE_URL</key>
+	<string>https://mizaly-c516b-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>

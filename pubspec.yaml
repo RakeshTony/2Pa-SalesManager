@@ -1,0 +1,93 @@
+name: twopa_sales_manager
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_phoenix: ^1.0.0
+  flutter_bloc: ^7.0.0
+  connectivity: ^3.0.6
+  package_info: ^2.0.2
+  device_info: ^2.0.3
+  dio: ^4.0.4
+  shared_preferences: ^2.0.7
+  url_launcher: ^6.0.10
+  webview_flutter: ^2.0.13
+  encrypt: ^5.0.1
+  # Hive Database
+  hive: ^2.0.5
+  hive_flutter: ^1.1.0
+  fluttercontactpicker: ^4.7.0  # For Contact Pick From Device
+  intl: ^0.17.0
+  share_plus: ^4.0.10
+  flutter_layout_grid: ^1.0.3
+  qr_code_scanner: ^1.0.0
+  image_picker: ^0.8.4+11
+  image_cropper: ^1.5.0
+  path: ^1.8.0
+  carousel_slider: ^4.0.0
+  firebase_core: ^1.12.0
+  firebase_database: ^9.0.7
+  firebase_messaging: ^11.1.0
+  flutter_local_notifications: ^9.4.0
+  firebase_crashlytics: ^2.6.0
+  flutter_inappwebview: ^5.4.3+4
+  flutter_html: ^2.2.1
+  flutter_flushbar: ^0.0.2
+  dotted_border: ^2.0.0+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  # Hive Database generators
+  build_runner: ^2.1.7
+  hive_generator: ^1.1.2
+  flutter_html: ^2.2.1
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - images/
+
+fonts:
+  - family: SofiaPro
+    fonts:
+      - asset: fonts/SofiaPro-UltraLight.ttf
+        weight: 300
+      - asset: fonts/SofiaPro-Regular.ttf
+        weight: 400
+      - asset: fonts/SofiaPro-Medium.ttf
+        weight: 500
+      - asset: fonts/SofiaPro-SemiBold.ttf
+        weight: 700
+  - family: Poppins
+    fonts:
+      - asset: fonts/Poppins-Thin.ttf
+        weight: 100
+      - asset: fonts/Poppins-ExtraLight.ttf
+        weight: 200
+      - asset: fonts/Poppins-Light.ttf
+        weight: 300
+      - asset: fonts/Poppins-Regular.ttf
+        weight: 400
+      - asset: fonts/Poppins-Medium.ttf
+        weight: 500
+      - asset: fonts/Poppins-SemiBold.ttf
+        weight: 600
+      - asset: fonts/Poppins-Bold.ttf
+        weight: 700
+      - asset: fonts/Poppins-ExtraBold.ttf
+        weight: 800
+      - asset: fonts/Poppins-Black.ttf
+        weight: 900

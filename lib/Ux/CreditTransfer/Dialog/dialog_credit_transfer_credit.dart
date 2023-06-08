@@ -28,13 +28,16 @@ class DialogCreditTransferCredit extends StatelessWidget {
       child: Dialog(
         backgroundColor: Colors.transparent,
         child: Container(
-          color: kWhiteColor,
+          decoration: new BoxDecoration(
+              color: kWhiteColor,
+              shape: BoxShape.rectangle,
+              borderRadius: BorderRadius.all(Radius.circular(15))),
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
               Container(
                 color: kColor6,
-                height: 4,
+                height: 10,
               ),
               Padding(
                 padding: const EdgeInsets.all(8.0),

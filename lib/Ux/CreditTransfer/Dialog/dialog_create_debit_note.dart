@@ -24,7 +24,11 @@ class DialogCreateDebitNote extends StatelessWidget {
       child: Dialog(
         backgroundColor: Colors.transparent,
         child: Container(
-          color: kWhiteColor,
+
+          decoration: new BoxDecoration(
+              color: kWhiteColor,
+              shape: BoxShape.rectangle,
+              borderRadius: BorderRadius.all(Radius.circular(15))),
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: [

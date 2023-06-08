@@ -429,9 +429,9 @@ class _CreditTransferOutgoingBodyState
                   flex: 2,
                   child: Text(
                     "${item.amount}",
-                    textAlign: TextAlign.end,
+                    textAlign: TextAlign.start,
                     style: TextStyle(
-                        color: kMainColor,
+                        color: kMainTextColor,
                         fontFamily: RFontFamily.POPPINS,
                         fontWeight: RFontWeight.MEDIUM,
                         fontSize: 14),

@@ -104,7 +104,7 @@ class _DialogChangeLanguageState extends State<DialogChangeLanguage> {
               height: 52,
               decoration: BoxDecoration(
                 shape: BoxShape.circle,
-                color: kMainColor,
+                color: kColor6,
               ),
               child: Center(
                 child: Text(

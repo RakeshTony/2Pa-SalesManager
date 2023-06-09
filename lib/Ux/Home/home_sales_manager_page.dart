@@ -43,12 +43,13 @@ class _HomeSalesManagerBodyState
   void initState() {
     super.initState();
     databaseReference
-        .child(FirebaseNode.USERS)
+        .child(FirebaseNode.BALANCES)
         .child(mPreference.value.userData.firebaseId)
-        .child(FirebaseNode.WALLET)
         .onValue
         .listen((data) {
+      // AppLog.e("USER_FIREBASE", mPreference.value.userData.firebaseId);
       if (data.snapshot.value is Map) {
+        // AppLog.e("USERS BALANCES", data.snapshot.value ?? "");
         var walletData = BalanceData.fromJson(toMaps(data.snapshot.value));
         final box = HiveBoxes.getBalance();
         box.put("BAL", walletData.toBalance);

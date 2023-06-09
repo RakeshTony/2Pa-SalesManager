@@ -10,5 +10,6 @@ class FirebaseNode {
   static const STATE_LIST = "state-list";
   static const USERS = "users";
   static const WALLET = "wallet";
+  static const BALANCES = "balances";
   static const DOWNLINE = "downline";
 }

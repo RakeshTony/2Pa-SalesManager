@@ -54,7 +54,7 @@ class _HomeSalesManagerBodyState
         box.put("BAL", walletData.toBalance);
       }
     });
-    //viewModel.requestBalanceEnquiry();
+    viewModel.requestBalanceEnquiry();
   }
 
   @override
@@ -392,8 +392,8 @@ class _HomeSalesManagerBodyState
                        child: Stack(
                            children:[
                              Container(
-                           width: 150,
-                           height: 150,
+                           width: 140,
+                           height: 140,
                            margin: EdgeInsets.only(left: 16, right: 16, bottom: 0),
                            padding: EdgeInsets.all(10),
                            decoration: BoxDecoration(
@@ -426,7 +426,7 @@ class _HomeSalesManagerBodyState
                            ),
                          ),
                              Container(
-                               width: 180, height: 170,
+                               width: 170, height: 160,
                            alignment: Alignment.bottomCenter,
                            child: Container(
                              width: 40,
@@ -448,8 +448,8 @@ class _HomeSalesManagerBodyState
                        child:Stack(
                            children:[
                              Container(
-                         width: 150,
-                         height: 150,
+                         width: 140,
+                         height: 140,
                          margin: EdgeInsets.only(left: 16, right: 16, bottom: 0),
                          padding: EdgeInsets.all(10),
                          decoration: BoxDecoration(
@@ -482,7 +482,7 @@ class _HomeSalesManagerBodyState
                          ),
                        ),
                              Container(
-                       width: 180, height: 170,
+                       width: 170, height: 160,
                        alignment: Alignment.bottomCenter,
                        child: Container(
                          width: 40,
@@ -513,8 +513,8 @@ class _HomeSalesManagerBodyState
                             child: Stack(
                                 children:[
                                   Container(
-                              width: 150,
-                              height: 150,
+                              width: 140,
+                              height: 140,
                               alignment: Alignment.center,
                               margin: EdgeInsets.only(left: 16, right: 16, bottom: 0),
                               padding: EdgeInsets.all(
@@ -550,7 +550,7 @@ class _HomeSalesManagerBodyState
                               ),
                             ),
                                   Container(
-                        width: 180, height: 170,
+                        width: 170, height: 160,
                         alignment: Alignment.bottomCenter,
                         child: Container(
                           width: 40,
@@ -571,8 +571,8 @@ class _HomeSalesManagerBodyState
                             child: Stack(
                                 children:[
                                   Container(
-                              width: 150,
-                              height: 150,
+                              width: 140,
+                              height: 140,
                               alignment: Alignment.center,
                               margin:
                               EdgeInsets.only(left: 16, right: 16, bottom: 0),
@@ -609,7 +609,7 @@ class _HomeSalesManagerBodyState
                               ),
                             ),
                                   Container(
-                              width: 180, height: 170,
+                              width: 170, height: 160,
                               alignment: Alignment.bottomCenter,
                               child: Container(
                                 width: 40,

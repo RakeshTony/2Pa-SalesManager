@@ -49,7 +49,10 @@ class ViewModelCreditTransfer extends BaseViewModel {
           return element.toMyUser;
         }).toList();
         box.addAll(users);
-        _usersStreamController.sink.add(dataModel.users);
+        try{
+          _usersStreamController.sink.add(dataModel.users);
+        }catch(e){
+        }
       },
       errorType: ErrorType.NONE,
       requestType: RequestType.NON_INTERACTIVE,

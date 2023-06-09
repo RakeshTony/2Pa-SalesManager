@@ -60,7 +60,9 @@ abstract class BaseViewModel {
                 toString(_resultBody[AppRequestKey.RESPONSE_MSG]), errorType);
           } else if (toBoolean(_resultBody[AppRequestKey.RESPONSE]) ||
               isResponseStatus) {
-            onSuccess(_resultBody);
+            try{
+              onSuccess(_resultBody);
+            }catch(e){}
             return AppRequestCode.OK;
           } else {
             return _throwError(response.statusCode,
